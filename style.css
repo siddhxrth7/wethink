@@ -1,5 +1,5 @@
 @font-face {
-    font-family: bold ;
+    font-family: bold;
     src: url(./helveticaneue.ttf);
 }
 @font-face {
@@ -63,17 +63,17 @@ header{
 .scroll-down header{
     transform: translate3d(0,-100%,0);
 }
-.scroll-up header{
- 
-}
+
 .part1{
-    width: 6vw;
+    margin-left: 30px;
+    width: 4vw;
     height: max-content;
-    padding: 10px;
-    line-height: 1.5vw;
+    padding: 8px;
+    line-height: 1vw;
     background-color:#e7cfb1;
     position: relative;
-    font-size: 2vw;
+    font-family: gilroy;
+    font-size: 1.3vw;
     text-align: right;
 }
 .part2{
@@ -81,7 +81,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     gap: 40px;
-   position: relative;
+    position: relative;
     padding-right: 30px;
 }
 .part2>a{
@@ -735,7 +735,7 @@ header{
     height: 500px;
     
 }
-.l-8>img{
+.l-8>video{
     position: relative;
     padding: 50px 100px;
     width: 90%;

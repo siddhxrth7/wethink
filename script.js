@@ -74,18 +74,18 @@ var t1=gsap.timeline({
 
 
 
-// var lastScrollTop=0;
-//  nav=document.getElementById("nav");
-// window.addEventListener("scroll",function(){
-//     var scrollTop=window.pageYOffset||document.documentElement.scrollTop;
-//     if(scrollTop > lastScrollTop){
-//         nav.style.top="-20vh";
-//     }
-//     else{
-//         nav.style.top="0";
-//     }
-//     lastScrollTop = scrollTop;
-// })
+ var lastScrollTop=0;
+  nav=document.getElementById("nav");
+ window.addEventListener("scroll",function(){
+     var scrollTop=window.pageYOffset||document.documentElement.scrollTop;
+     if(scrollTop > lastScrollTop){
+         nav.style.top="-20vh";
+     }
+     else{
+         nav.style.top="0";
+     }
+     lastScrollTop = scrollTop; 
+    })
 
 const body=document.body;
 let lastScroll=0;
